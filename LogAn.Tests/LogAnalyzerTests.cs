@@ -7,7 +7,15 @@ using NUnit.Framework;
 
 namespace LogAn.Tests
 {
+    [TestFixture]
     public class LogAnalyzerTests
     {
+        // [UnitOfWorkName]_[ScenarioUnderTest]_[ExpectedBehavior]
+
+        [TestCase]
+        public void IsValidLogFileName_BadExtension_ReturnsFalse()
+        {
+
+        }
     }
 }
